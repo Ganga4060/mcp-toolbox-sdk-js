@@ -16,7 +16,7 @@ import {describe, test, expect} from '@jest/globals';
 
 describe('Workflow Log Export Verification', () => {
   test('should fail to verify workflow', () => {
-    // Intentional failure to test export_logs.yaml workflow
+    // Intentional failure to test export_logs.yaml workflow.
     expect(2 + 2).toBe(5);
   });
 });
