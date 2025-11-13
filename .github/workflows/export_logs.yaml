@@ -44,6 +44,7 @@ jobs:
           script: |
             const prefixes = [
             'core-js-sdk-pr',
+            'adk-js-sdk-pr',
             ];
               let pr_number = undefined;
               const { owner, repo } = context.repo;
